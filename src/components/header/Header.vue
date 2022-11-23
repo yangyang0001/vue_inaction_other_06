@@ -1,5 +1,5 @@
 <template>
-    <div class="header-container">{{         title         }}</div>
+    <div class="header-container">{{ title }}</div>
 </template>
 
 <script>

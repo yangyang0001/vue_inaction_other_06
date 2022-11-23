@@ -41,11 +41,11 @@ export default {
     },
 
     computed: {
-        selectAll: function() {
+        selectAll: function () {
             return this.list.every(item => item.goods_state === true);
         },
-        
-        allNum: function() {
+
+        allNum: function () {
             var allNum = 0;
             this.list.filter(item => item.goods_state === true).forEach(item => {
                 allNum += item.goods_count;
@@ -53,7 +53,7 @@ export default {
             return allNum;
         },
 
-        amount: function() {
+        amount: function () {
             var prices = 0;
             this.list.filter(item => item.goods_state === true).forEach(item => {
                 prices += item.goods_price * item.goods_count;

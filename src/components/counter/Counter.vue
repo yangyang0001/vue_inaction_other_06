@@ -44,7 +44,7 @@ export default {
                 bus.$emit('num_change', param);
             }
         },
-        
+
         add() {
             // console.log('counter.vue add');
             var param = {
